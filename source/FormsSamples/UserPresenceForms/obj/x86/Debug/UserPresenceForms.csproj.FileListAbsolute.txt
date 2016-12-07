@@ -1,0 +1,14 @@
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\Tobii.EyeX.Client.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\Images\not-present.png
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\Images\present.png
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\UserPresenceForms.exe
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\UserPresenceForms.pdb
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\EyeXFramework.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\EyeXFramework.pdb
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\obj\x86\Debug\UserPresenceForms.UserPresenceForm.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\obj\x86\Debug\UserPresenceForms.Properties.Resources.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\obj\x86\Debug\UserPresenceForms.csproj.GenerateResource.Cache
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\obj\x86\Debug\UserPresenceForms.exe
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\UserPresenceForms\obj\x86\Debug\UserPresenceForms.pdb

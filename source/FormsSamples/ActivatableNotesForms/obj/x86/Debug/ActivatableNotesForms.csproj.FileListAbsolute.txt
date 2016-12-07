@@ -1,0 +1,13 @@
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\Tobii.EyeX.Client.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\ActivatableNotesForms.exe
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\ActivatableNotesForms.pdb
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\EyeXFramework.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\EyeXFramework.pdb
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\obj\x86\Debug\ActivatableNotesForms.ActivatableNotesForm.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\obj\x86\Debug\ActivatableNotesForms.NoteControl.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\obj\x86\Debug\ActivatableNotesForms.Properties.Resources.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\obj\x86\Debug\ActivatableNotesForms.csproj.GenerateResource.Cache
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\obj\x86\Debug\ActivatableNotesForms.exe
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\FormsSamples\ActivatableNotesForms\obj\x86\Debug\ActivatableNotesForms.pdb
