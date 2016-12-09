@@ -5,3 +5,10 @@ C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\EyeXFramework\bin\x86\Debug\Tobii.Eye
 C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\EyeXFramework\obj\x86\Debug\EyeXFramework.csprojResolveAssemblyReference.cache
 C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\EyeXFramework\obj\x86\Debug\EyeXFramework.dll
 C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\EyeXFramework\obj\x86\Debug\EyeXFramework.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\bin\x86\Debug\EyeXFramework.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\bin\x86\Debug\EyeXFramework.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.csprojResolveAssemblyReference.cache
