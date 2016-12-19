@@ -4,6 +4,7 @@
 
 namespace ActivatableElements
 {
+    using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.ComponentModel;
@@ -12,6 +13,16 @@ namespace ActivatableElements
 
     public class MainWindowModel
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private string _message = "";
+
+        public string Message
+        {
+            get { return _message; }
+            set { PropertyChanged.ChangeAndNotify(ref _message, value, () => Message); }
+        }
+
         private readonly ObservableCollection<Note> _notes;
         private readonly ICollectionView _notesView;
 
@@ -19,6 +30,7 @@ namespace ActivatableElements
         {
             _notes = CreateNotes();
             _notesView = CollectionViewSource.GetDefaultView(_notes);
+           
         }
 
         /// <summary>
@@ -45,6 +57,16 @@ namespace ActivatableElements
         {
             _notes.Clear();
             InitializeNotes(_notes);
+        }
+
+        /// <summary>
+        /// Write a character.
+        /// </summary>
+        public void WriteChar(String character)
+        {
+            
+            Message += "a";
+            Console.WriteLine(Message);
         }
 
         private ObservableCollection<Note> CreateNotes()
