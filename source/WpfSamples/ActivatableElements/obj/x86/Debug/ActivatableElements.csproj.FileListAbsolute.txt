@@ -40,3 +40,24 @@ C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\Gaz
 C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
 C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
 C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.exe
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.pdb
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.dll
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.dll
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.pdb
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csprojResolveAssemblyReference.cache
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_Content.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.cache
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.lref
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.baml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.baml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.g.resources
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.Properties.Resources.resources
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csproj.GenerateResource.Cache

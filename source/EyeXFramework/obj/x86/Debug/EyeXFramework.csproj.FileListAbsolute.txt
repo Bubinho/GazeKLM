@@ -12,3 +12,10 @@ C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\Gaz
 C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
 C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
 C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.csprojResolveAssemblyReference.cache
+D:\GitRepo\GazeKLM\source\EyeXFramework\bin\x86\Debug\EyeXFramework.dll
+D:\GitRepo\GazeKLM\source\EyeXFramework\bin\x86\Debug\EyeXFramework.pdb
+D:\GitRepo\GazeKLM\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+D:\GitRepo\GazeKLM\source\EyeXFramework\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+D:\GitRepo\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.csprojResolveAssemblyReference.cache
+D:\GitRepo\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.dll
+D:\GitRepo\GazeKLM\source\EyeXFramework\obj\x86\Debug\EyeXFramework.pdb

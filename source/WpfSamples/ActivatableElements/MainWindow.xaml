@@ -16,10 +16,53 @@
 
     <Window.Resources>
         <Style x:Key="ButtonStyle" TargetType="Button">
-            <Setter Property="Width" Value="70" />
-            <Setter Property="Height" Value="70" />
+            <Setter Property="Width" Value="120" />
+            <Setter Property="Height" Value="120" />
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="ButtonStyle2" TargetType="Button">
+            <Setter Property="Width" Value="40" />
+            <Setter Property="Height" Value="120" />
+        </Style>
+        <Style x:Key="ButtonStyle3" TargetType="Button">
+            <Setter Property="Width" Value="80" />
+            <Setter Property="Height" Value="120" />
+        </Style>
+        <Style x:Key="ButtonStyleSpace" TargetType="Button">
+            <Setter Property="Width" Value="480" />
+            <Setter Property="Height" Value="120" />
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="20"/>
         </Style>
         <Style x:Key="EyeXActivatableButtonStyle" BasedOn="{StaticResource ButtonStyle}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyle2" BasedOn="{StaticResource ButtonStyle2}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyle3" BasedOn="{StaticResource ButtonStyle3}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyleSpace" BasedOn="{StaticResource ButtonStyleSpace}" TargetType="Button">
             <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
             <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
             <Style.Triggers>
@@ -36,7 +79,7 @@
                         CanExecute="CloseCommand_OnCanExecute"/>
     </Window.CommandBindings>
    
-    <Grid>
+    <Grid Margin="50">
         <Grid.RowDefinitions>
             <RowDefinition Height="10*" />
             <RowDefinition Height="10*" />
@@ -59,7 +102,7 @@
 
                 <StackPanel Grid.Row="0" Orientation="Horizontal">
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Q</Button>
-                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}" Height="Auto">W</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">W</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">E</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">R</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">T</Button>
@@ -72,6 +115,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <Button Visibility="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle2}"></Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">A</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">S</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">D</Button>
@@ -84,8 +128,8 @@
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Ö</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Ä</Button>
                 </StackPanel>
-
                 <StackPanel Grid.Row="2" Orientation="Horizontal">
+                    <Button Visibility="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle3}"></Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Y</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">X</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">C</Button>
@@ -95,10 +139,17 @@
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">M</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">,</Button>
                     <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">.</Button>
+                    <Button Click="BackSpaceButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Backspace</Button>
                 </StackPanel>
 
                 <StackPanel Grid.Row="3" Orientation="Horizontal">
-                    <Button Click="SpaceButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Space</Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Click="SpaceButton_OnClick" Style="{StaticResource ButtonStyleSpace}">Space</Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
                     <Button Click="EnterButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Enter</Button>
                 </StackPanel>
 

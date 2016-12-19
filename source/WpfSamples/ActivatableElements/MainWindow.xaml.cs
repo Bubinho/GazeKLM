@@ -24,7 +24,7 @@ namespace ActivatableElements
         public MainWindow()
         {
             InitializeComponent();
-            Process.Start("C:\\SDKs\\TobiiEyeXSdk-DotNet-1.7.489\\source\\MinimalSamples\\MinimalGazeDataStream\\bin\\x86\\Debug\\MinimalGazeDataStream.exe");
+            //Process.Start("C:\\SDKs\\TobiiEyeXSdk-DotNet-1.7.489\\source\\MinimalSamples\\MinimalGazeDataStream\\bin\\x86\\Debug\\MinimalGazeDataStream.exe");
             ReadSentences();
         }
 
@@ -33,7 +33,7 @@ namespace ActivatableElements
 
         private void ReadSentences()
         {
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\phrases2.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"..\..\..\phrases2.txt");
 
             foreach (string line in lines)
             {
@@ -146,9 +146,19 @@ namespace ActivatableElements
             message = "";
             messageTextBox.Text = message;
         }
+        private void BackSpaceButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            //Button button = sender as Button;
+            if (message.Length > 0)
+            {
+                message = message.Remove(message.Length - 1);
+            }
+            messageTextBox.Text = message;
 
+        }
         private void Window_Closing(object sender, CancelEventArgs e)
         {
         }
+
     }
 }
