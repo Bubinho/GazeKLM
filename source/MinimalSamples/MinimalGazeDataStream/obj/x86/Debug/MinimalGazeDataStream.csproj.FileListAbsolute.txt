@@ -1,0 +1,10 @@
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\Tobii.EyeX.Client.dll
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\MinimalGazeDataStream.exe
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\MinimalGazeDataStream.pdb
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\EyeXFramework.dll
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\EyeXFramework.pdb
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\obj\x86\Debug\MinimalGazeDataStream.csprojResolveAssemblyReference.cache
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\obj\x86\Debug\MinimalGazeDataStream.exe
+D:\GitRepo\GazeKLM\source\MinimalSamples\MinimalGazeDataStream\obj\x86\Debug\MinimalGazeDataStream.pdb

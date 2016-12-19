@@ -21,15 +21,24 @@ namespace ActivatableElements
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Process minimalGazeDataStream = new Process();
+        int startLog = 0;
+
+
         public MainWindow()
         {
             InitializeComponent();
-            //Process.Start("C:\\SDKs\\TobiiEyeXSdk-DotNet-1.7.489\\source\\MinimalSamples\\MinimalGazeDataStream\\bin\\x86\\Debug\\MinimalGazeDataStream.exe");
+            
+            minimalGazeDataStream.StartInfo = new ProcessStartInfo("MinimalGazeDataStream.exe");
+            minimalGazeDataStream.StartInfo.WorkingDirectory = @"..\..\..\..\..\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug";
+            minimalGazeDataStream.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
+            
             ReadSentences();
         }
 
         private List<string> sentences = new List<string>();
         private string message = "";
+
 
         private void ReadSentences()
         {
@@ -145,7 +154,17 @@ namespace ActivatableElements
 
             message = "";
             messageTextBox.Text = message;
+            startLog++;
+            if (startLog == 4)
+            {
+                minimalGazeDataStream.Start();
+            }else if(startLog == 10)
+            {
+                minimalGazeDataStream.CloseMainWindow();
+            }
+            
         }
+
         private void BackSpaceButton_OnClick(object sender, RoutedEventArgs e)
         {
             //Button button = sender as Button;
@@ -154,11 +173,11 @@ namespace ActivatableElements
                 message = message.Remove(message.Length - 1);
             }
             messageTextBox.Text = message;
-
         }
+
         private void Window_Closing(object sender, CancelEventArgs e)
         {
+            
         }
-
     }
 }
