@@ -1,0 +1,105 @@
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.pdb
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csprojResolveAssemblyReference.cache
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.baml
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.g.cs
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.g.cs
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_Content.g.cs
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.cache
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.lref
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.baml
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.g.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.Properties.Resources.resources
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csproj.GenerateResource.Cache
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.exe
+C:\SDKs\TobiiEyeXSdk-DotNet-1.7.489\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csprojResolveAssemblyReference.cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.baml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_Content.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.lref
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.baml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.g.resources
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.Properties.Resources.resources
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csproj.GenerateResource.Cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.exe
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\Projekt\Repository\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.exe
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.pdb
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.dll
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.dll
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.pdb
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csprojResolveAssemblyReference.cache
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_Content.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.cache
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.lref
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.baml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.baml
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.g.resources
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.Properties.Resources.resources
+D:\GitRepo\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csproj.GenerateResource.Cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.exe
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csprojResolveAssemblyReference.cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_Content.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.lref
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\App.baml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.baml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.g.resources
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.Properties.Resources.resources
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\source\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csproj.GenerateResource.Cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.exe
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.exe
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\ActivatableElements.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.dll
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\EyeXFramework.pdb
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\bin\x86\Debug\Tobii.EyeX.Client.Net20.xml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csprojResolveAssemblyReference.cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\App.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_Content.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.cache
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements_MarkupCompile.lref
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\App.baml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\MainWindow.baml
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.g.resources
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.Properties.Resources.resources
+C:\Users\Bubes\Documents\Universität\Empirische Methoden\GazeKLM\sourceTastatur\WpfSamples\ActivatableElements\obj\x86\Debug\ActivatableElements.csproj.GenerateResource.Cache

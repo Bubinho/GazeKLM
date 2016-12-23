@@ -32,7 +32,8 @@ namespace ActivatableElements
             minimalGazeDataStream.StartInfo = new ProcessStartInfo("MinimalGazeDataStream.exe");
             minimalGazeDataStream.StartInfo.WorkingDirectory = @"..\..\..\..\..\MinimalSamples\MinimalGazeDataStream\bin\x86\Debug";
             minimalGazeDataStream.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
-            
+
+            Loaded += (sender, e) => MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
             ReadSentences();
         }
 

@@ -9,7 +9,7 @@
         xmlns:ae="clr-namespace:ActivatableElements" 
         KeyUp="MainWindow_OnKeyUp"
         KeyDown="MainWindow_OnKeyDown"
-        Title="MainWindow" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" Closing="Window_Closing">
+        Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterScreen" WindowState="Maximized" Closing="Window_Closing">
     <Window.DataContext>
         <ae:MainWindowModel/>
     </Window.DataContext>

@@ -1,0 +1,160 @@
+﻿<!-- ........................................................ -->
+<!-- Copyright 2014 Tobii Technology AB. All rights reserved. -->
+<!-- ........................................................ -->
+
+<Window x:Class="ActivatableElements.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:eyeX="clr-namespace:EyeXFramework.Wpf;assembly=EyeXFramework"
+        xmlns:ae="clr-namespace:ActivatableElements" 
+        KeyUp="MainWindow_OnKeyUp"
+        KeyDown="MainWindow_OnKeyDown"
+        Title="MainWindow" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized" Closing="Window_Closing">
+    <Window.DataContext>
+        <ae:MainWindowModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="120" />
+            <Setter Property="Height" Value="120" />
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="ButtonStyle2" TargetType="Button">
+            <Setter Property="Width" Value="40" />
+            <Setter Property="Height" Value="120" />
+        </Style>
+        <Style x:Key="ButtonStyle3" TargetType="Button">
+            <Setter Property="Width" Value="80" />
+            <Setter Property="Height" Value="120" />
+        </Style>
+        <Style x:Key="ButtonStyleSpace" TargetType="Button">
+            <Setter Property="Width" Value="480" />
+            <Setter Property="Height" Value="120" />
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyle" BasedOn="{StaticResource ButtonStyle}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyle2" BasedOn="{StaticResource ButtonStyle2}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyle3" BasedOn="{StaticResource ButtonStyle3}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="EyeXActivatableButtonStyleSpace" BasedOn="{StaticResource ButtonStyleSpace}" TargetType="Button">
+            <Setter Property="eyeX:Behavior.Activatable" Value="Default" />
+            <EventSetter Event="eyeX:Behavior.Activate" Handler="Button_OnEyeXActivate" />
+            <Style.Triggers>
+                <Trigger Property="eyeX:Behavior.ActivationFocus" Value="HasActivationFocus">
+                    <Setter Property="BorderBrush" Value="DarkGray" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Window.CommandBindings>
+        <CommandBinding Command="Close" 
+                        Executed="CloseCommand_OnExecuted"
+                        CanExecute="CloseCommand_OnCanExecute"/>
+    </Window.CommandBindings>
+   
+    <Grid Margin="50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="80*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="sentenceTextBlock" TextWrapping="Wrap" FontSize="30" Foreground="Black"/>
+
+        <TextBox x:Name="messageTextBox" Grid.Row="1" TextWrapping="Wrap" FontSize="30" KeyUp="OnKeyDown"/>
+
+        <StackPanel Grid.Row="2">
+            <!--<Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="20*" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Q</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">W</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">E</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">R</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">T</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Z</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">U</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">I</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">O</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">P</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Ü</Button>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <Button Visibility="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle2}"></Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">A</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">S</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">D</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">F</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">G</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">H</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">J</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">K</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">L</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Ö</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Ä</Button>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Horizontal">
+                    <Button Visibility="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle3}"></Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Y</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">X</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">C</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">V</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">B</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">N</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">M</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">,</Button>
+                    <Button Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">.</Button>
+                    <Button Click="BackSpaceButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Backspace</Button>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3" Orientation="Horizontal">
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Click="SpaceButton_OnClick" Style="{StaticResource ButtonStyleSpace}">Space</Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Visibility ="Hidden" Click="KeyButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}"></Button>
+                    <Button Click="EnterButton_OnClick" Style="{StaticResource EyeXActivatableButtonStyle}">Enter</Button>
+                </StackPanel>
+
+            </Grid>-->
+        </StackPanel>
+    </Grid>
+   
+</Window>

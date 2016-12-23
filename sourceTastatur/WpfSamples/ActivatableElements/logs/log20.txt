@@ -1,0 +1,7 @@
+timestamp;buchstabe
+0;Return
+562;Return
+841;Return
+1055;Return
+1232;Return
+1534;Return
